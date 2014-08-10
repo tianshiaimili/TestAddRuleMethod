@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+//////////////////
 public class MainActivity extends Activity {
    
     private RelativeLayout relalayout;
