@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab2activity_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CCCCCC" >
+
+        <LinearLayout
+            android:id="@+id/tab2activity_item_image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+             >
+
+            <ImageView
+                android:id="@+id/tab2activity_item_imageview"
+                android:layout_width="@dimen/pccw_item_imageview_width"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:scaleType="centerInside"
+                android:src="@drawable/picture1"
+                android:layout_gravity="center_vertical"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/pccw_item_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" 
+            android:background="#3d4f65"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/tab2activity_item_radio"
+                    style="@style/CustomLeftRadioBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/pccw_item_radiobutton_margin_left"
+                    android:background="#FF9966"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:textColor="#ffffff"
+                    android:gravity="center_vertical"
+                     />
+
+                <ImageView
+                    android:layout_width="@dimen/pccw_item_imageline_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pccw_item_imageline_margin_left"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line" />
+            </LinearLayout>
+        </LinearLayout>
+
+ </LinearLayout>
+</LinearLayout>

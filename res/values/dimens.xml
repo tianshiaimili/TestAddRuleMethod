@@ -1,0 +1,95 @@
+<resources>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="right_image_checkbox_margin">5dp</dimen>
+    <dimen name="button_checkbox_margin_scope">300dp</dimen>
+    <dimen name="button_checkbox_textview_margin_scope">-250dp</dimen>
+    <dimen name="checkbox_sub_margin_scope">80dp</dimen>
+    <dimen name="checkbox_click_width_size">100dp</dimen>
+    <dimen name="textview_width_margin_size">50dp</dimen>
+    <dimen name="main_imageview_margin_right">100dp</dimen>
+    <dimen name="main_imageview_margin_top">120dp</dimen>
+    <dimen name="main_imageview2_margin_imageview1_top">20dp</dimen>
+    
+    <dimen name="pccw_2_10_checkbox1_width">300dp</dimen>
+    <dimen name="pccw_2_10_checkbox2_width">150dp</dimen>
+    <dimen name="pccw_2_10_checkbox_textview_margintop">5dp</dimen>
+    <dimen name="pccw_2_10_checkbox_textview_height">30dp</dimen>
+    <dimen name="pccw_2_10_imageview_width">265dp</dimen>
+    <dimen name="pccw_2_10_layout_width">380dp</dimen>
+    <dimen name="pccw_2_10_radiobutton_margin_left">150dp</dimen>
+    <dimen name="pccw_2_10_imageviewline_width">2dp</dimen>
+    <dimen name="pccw_2_10_imageviewline_height">130dp</dimen>
+    <dimen name="pccw_2_10_imageviewline_margin_left">175dp</dimen>
+    <dimen name="pccw_2_10_layout_margin_buttom">8dp</dimen>
+    <dimen name="pccw_2_10_layout_margin_top">1dp</dimen>
+    <dimen name="pccw_2_10_textview_size">16sp</dimen>
+
+    <dimen name="pccw_item_height">605dp</dimen>
+    <dimen name="pccw_item_imageline_width">2dp</dimen>
+    <dimen name="pccw_item_imageline_height">605dp</dimen>
+    <dimen name="pccw_item_imageline_margin_left">175dp</dimen>
+    <dimen name="pccw_item_checkbox1_width">300dp</dimen>
+    <dimen name="pccw_item_checkbox_textview_height">23dp</dimen>
+    <dimen name="pccw_item_checkbox_textview_margintop">2dp</dimen>
+    <dimen name="pccw_item_textview_marginleft">50dp</dimen>
+    <dimen name="pccw_item_checkbox_textview__longcontent_height">40dp</dimen>
+    <dimen name="pccw_item_checkbox__longcontent_margintop">-10dp</dimen>
+    <dimen name="pccw_item_imageview_top">-150dp</dimen>
+    <dimen name="pccw_item_imageview_width">265dp</dimen>
+    <dimen name="pccw_item_layout_width">380dp</dimen>
+    <dimen name="pccw_item_radiobutton_margin_left">150dp</dimen>
+    <dimen name="pccw_item_layout_margin_top">5dp</dimen>
+    <dimen name="pccw_item_textview_size">16sp</dimen>
+    <dimen name="pccw_item_layout_fenge_height">2dp</dimen>
+    <dimen name="pccw_item_layout_margin_buttom">5dp</dimen>
+    
+    <dimen name="tab2activity_item_imageview_width">265dp</dimen>
+    <dimen name="tab2activity_item_layout_width">380dp</dimen>
+    <dimen name="tab2activity_item_radiobutton_margin_left">150dp</dimen>
+    <dimen name="tab2activity_item_imageviewline_width">2dp</dimen>
+    <dimen name="tab2activity_item_imageviewline_height">130dp</dimen>
+    <dimen name="tab2activity_item_imageviewline_margin_left">175dp</dimen>
+    <dimen name="tab2activity_item_textview_size">16sp</dimen>
+    
+    <dimen name="tab2activity_layout_height">0dp</dimen>
+    <dimen name="tab2activity_textview_size">32sp</dimen>
+    <dimen name="tab2activity_textview_margin_top">10dp</dimen>
+    <dimen name="tab2activity_textview2_margin_top">5dp</dimen>
+    <dimen name="tab2activity_textview2_size">18sp</dimen>
+    <dimen name="tab2activity_textview3_width">540dp</dimen>
+    <dimen name="tab2activity_textview3_height">1dp</dimen>
+    <dimen name="tab2activity_textview3_top">2dp</dimen>
+    <dimen name="tab2activity_layout_bottom">8dp</dimen>
+    <dimen name="tab2activity_layout_top">20dp</dimen>
+    <dimen name="tab2activity_textviewtitle_top">2dp</dimen>
+    <dimen name="tab2activity_textviewtitle_size">18sp</dimen>
+    <dimen name="tab2activity_textviewtitle2_margin_left">100dp</dimen>
+    <dimen name="tab2activity_textviewtitle3_margin_left">50dp</dimen>
+    <dimen name="tab2activity_layoutbox_height">40dp</dimen>
+    <dimen name="tab2activity_checkbox_width">150dp</dimen>
+    <dimen name="tab2activity_checkbox_height">40dp</dimen>
+    <dimen name="tab2activity_checkbox_margin_left">650dp</dimen>
+    <dimen name="tab2activity_checkbox_text_width">100dp</dimen>
+    <dimen name="tab2activity_checkbox_text_height">40dp</dimen>
+    <dimen name="tab2activity_checkbox_text_margin_top">10dp</dimen>
+    <dimen name="tab2activity_checkbox_text_size">18sp</dimen>
+    <dimen name="tab2activity_checkbox_text_margin_left">700dp</dimen>
+    <dimen name="tab2activity_sumbitlayout_height">70dp</dimen>
+    
+    <dimen name="pccw_layout_imageview_width">280dp</dimen>
+    <dimen name="pccw_layout_radiobutton_margin_left">100dp</dimen>
+    <dimen name="pccw_layout_margin_left">150dp</dimen>
+    
+    <dimen name="thankyou_layout_width">263dp</dimen>
+    <dimen name="thankyou_layout_height">70dp</dimen>
+    
+    <!-- button size for declare -->
+    <dimen name="button_text_size">18dp</dimen>
+    <dimen name="button_text_width_size">240dp</dimen>
+    <dimen name="button_text_height_size">60dp</dimen>
+    <dimen name="button_text_margin_left">8dp</dimen>
+    
+</resources>

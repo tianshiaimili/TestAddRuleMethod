@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab2activity_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFCCC"
+     >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 第一个 -->
+
+            <LinearLayout
+                android:id="@+id/tab2activity_item_image_layout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/right_image_checkbox_margin"
+                android:layout_marginTop="@dimen/pccw_item_layout_margin_top"
+                android:background="#3d4f65"
+                android:orientation="horizontal" >
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="@dimen/button_checkbox_margin_scope"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/single_checkbox"
+                            style="@style/mystylecheckbox"
+                            android:layout_width="@dimen/pccw_item_checkbox1_width"
+                            android:layout_height="@dimen/pccw_item_checkbox_textview_height"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:textColor="#ffffff"
+                             />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/single_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/pccw_item_checkbox_textview_height"
+                        android:layout_marginLeft="@dimen/pccw_item_textview_marginleft"
+                        android:layout_marginTop="@dimen/pccw_item_checkbox_textview_margintop"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:text="4654656"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/pccw_item_textview_size"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+            
+ </LinearLayout>
+</LinearLayout>

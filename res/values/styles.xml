@@ -1,0 +1,46 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomLeftRadioBtn">
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/search_radio_1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="CustomRightRadioBtn">
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/search_radio_1</item>
+        <item name="android:background">@drawable/search_right</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="mystylecheckbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/mycheck_selection</item>
+        <!-- <item name="android:paddingLeft">25.0dip</item> -->
+        <item name="android:maxHeight">10.0dip</item>
+    </style>
+
+<!-- style of button -->
+     <style name="buttonstyle">
+    	<item name="android:button">@null</item> 
+    	<item name="android:background">@android:color/transparent</item>
+       	<item name="android:gravity">center</item> 
+    </style>
+</resources>
+
